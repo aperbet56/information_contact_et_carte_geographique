@@ -1,0 +1,75 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #535ef3 0%, #38bcf9 100%);
+}
+
+a,
+a:visited,
+a:active {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main__content {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: #313131;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin: 35px 25px;
+}
+
+.contact {
+    padding: 30px 60px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact__item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+ion-icon {
+    margin-right: 15px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
