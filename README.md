@@ -1,5 +1,7 @@
 ## INFORMATION DE CONTACT ET CARTE GEOGRAPHIQUE
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Mon objectif a été de créér une zone de contact contenant des liens cliquables et une carte géographique à l'aide de l'API Leaflet. Pour se faire, j'ai ajouté :
@@ -10,7 +12,11 @@ Mon objectif a été de créér une zone de contact contenant des liens cliquabl
 - un marqueur sur la carte
 - et une popup
 
-## Développze avec
+## Démonstration
+
+Lien vers le projet : https://aperbet56.github.io/information_contact_et_carte_geographique/
+
+## Projet développé avec
 
 - Utilisation des balises sémantiques HTML5
 - CSS
